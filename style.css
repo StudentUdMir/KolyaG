@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(https://i.pinimg.com/474x/05/79/84/057984784fffde33809822adcc937b49.jpg);
+    background-position: 25% 75%;
+    background-size: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+ header img {
+   width: 180px;
+   height: 50px;
+   float: left;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    height: 75px;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #f53f3f;
+    color: black; 
+    border: 1px solid #000000;
+    
+    padding: 10px;
+    margin: 10px;    
+}
+main p {
+  text-size: 60px;
+}
+footer {
+    background-image: url(https://i.pinimg.com/474x/05/79/84/057984784fffde33809822adcc937b49.jpg);
+    background-position: 25% 75%;
+    background-size: 20%;
+    color: blue;
+    padding:25px;
+}
+nav a:hover {
+    background-color: greenyellow;
+} 
+nav a:visited {
+    background-color:  blue;
+}
+
+main img {
+    width: 100px;
+    height: 100px;
+
+}
